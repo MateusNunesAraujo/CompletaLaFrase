@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stytle.css">
     <title>Completa la frase</title>
+    <link rel="icon" href="resources/tree.ico" type="image/x-icon">
 </head>
 <body>
         <div class="cartel-bienvenida">
-            <h1>¡Bienvenido a [insertar nombre del juego]!</h1>
-            <p>[Texto donde se explica las reglas basicas de lo que consiste el juego]</p>
+            <h1>¡Bienvenido a "Completa la frase"!</h1>
+            <p><b><i>"Completa la frase"</i></b> es un juego interactivo que desafía a los partícipantes a elegir la continuación correcta de una oración inicial entre tres opciones. Cada ronda comienza con una oración incompleta, y los jugadores deben seleccionar la opción que consideren correcta para completarla. Con el objetivo de encontrar la respuesta precisa, los participantes evalúan las pistas proporcionadas en la oración inicial y aplican su ingenio y conocimientos para seleccionar la opción correcta.</p>
             <button id="siguiente">
                 Siguiente
                 <div class="icon-1">
@@ -73,38 +74,30 @@
         </div>  
         <main class="caja-frases">
             <section class="frase nro-1">
-                <h3>[Insertar frase]</h3>
+                <h3>1. La energía renovable hace referencia a _______</h3>
                     <div class="radio-input-wrapper palabras">
                         <label class="label">
-                          <input value="value-2" name="value-radio" id="value-2" class="radio-input" type="radio">
+                          <input value="1" name="value-radio" id="value-2" class="radio-input" type="radio">
                           <div class="radio-design"></div>
-                          <div class="label-text">Palabra 1</div>
+                          <div class="label-text">Energía de fuentes naturales y casi inagotables</div>
                         </label>
                         <label class="label">
-                          <input value="value-3" name="value-radio" id="value-3" class="radio-input" type="radio">
+                          <input value="2" name="value-radio" id="value-3" class="radio-input" type="radio">
                           <div class="radio-design"></div>
-                          <div class="label-text">Palabra 2</div>
+                          <div class="label-text">Fuentes de energía que se agotan con su uso</div>
                         </label>
                         <label class="label">
-                          <input value="value-4" name="value-radio" id="value-4" class="radio-input" type="radio">
+                          <input value="3" name="value-radio" id="value-4" class="radio-input" type="radio">
                           <div class="radio-design"></div>
-                          <div class="label-text">Palabra 3</div>
+                          <div class="label-text">Energías convencionales</div>
                         </label>
-                        <label class="label">
-                            <input value="value-4" name="value-radio" id="value-4" class="radio-input" type="radio">
-                            <div class="radio-design"></div>
-                            <div class="label-text">Palabra 3</div>
-                          </label>
                       </div>
-                      <button>
-                        <span>Button</span>
-                      </button>
-                  <!--   <li><input type="radio" name="palabra" id="">Palabra 1</li>
-                    <li><input type="radio" name="palabra" id="">Palabra 2</li>
-                    <li><input type="radio" name="palabra" id="">Palabra 3</li>
-                    <li><input type="radio" name="palabra" id="">Palabra 4</li> -->
             </section>
+            <button id="continuar">
+                <span>Continuar</span>
+              </button>
         </main>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
