@@ -116,7 +116,7 @@ btnContinuar.addEventListener('click', (e) => {
         switch (veces) {
             case 2:
                 h3.textContent = '2. Sin embargo, actualmente las energías renovables siguen siendo más caras que las energías ____________';
-                palabras = ['Energía Solar', 'Energía hidroeléctrica', 'Energía eólica'];
+                palabras = ['Energía Solar', 'Energía de los combustibles fosiles', 'Energía convencionales'];
                 document.querySelector('.caja-frases').replaceChild(section, frase)
                 break;
             case 3:

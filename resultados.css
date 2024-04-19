@@ -507,7 +507,6 @@ main{
     font-family: Roboto;
     transition: all 0.5s;
 opacity: 0;
-height: 80%;
 width: 65%;
 }
 
@@ -523,6 +522,8 @@ margin-bottom: 60px;
 }
 
 footer{
+    margin-top: 30px;
+    margin-bottom: 50px;
     font-family: Roboto;
 text-align: center;
 }
